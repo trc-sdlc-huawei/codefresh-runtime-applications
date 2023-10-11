@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    path: multi-env/service-a/overlays/production
+    path: ./basic/service-a
     repoURL: https://github.com/trc-sdlc-huawei/gitops.git
     targetRevision: HEAD
   destination:
