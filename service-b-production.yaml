@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    path: ./basic/service-b
+    path: ./basic-rollouts/service-b
     repoURL: https://github.com/trc-sdlc-huawei/gitops.git
     targetRevision: HEAD
   destination:
