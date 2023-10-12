@@ -2,6 +2,8 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: service-a-production
+  annotations: 
+    codefresh.io/product: service-a
   finalizers:
     - resources-finalizer.argocd.argoproj.io/foreground
 spec:
