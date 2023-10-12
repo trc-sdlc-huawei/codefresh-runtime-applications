@@ -4,6 +4,7 @@ metadata:
   name: service-a-production
   annotations: 
     codefresh.io/product: service-a
+    codefresh.io/test: test
   finalizers:
     - resources-finalizer.argocd.argoproj.io/foreground
 spec:
